@@ -3,7 +3,14 @@ This is a secured api which requires a token to get the data. The azure active d
 
 ### Register app
 1) Register the application in azure active directory
+
+
+![alt text](https://github.com/arpitfs/aad-secured-api/blob/main/Screenshots/App%20Registration.PNG)
+
 2) Expose the api
 3) Update the manifest
+
+![alt text](https://github.com/arpitfs/aad-secured-api/blob/main/Screenshots/ExposeAPI.png)
+
 
 After registering the api you will get the resourceId and tenantId which will be used to tell the audience and authority for the api.
